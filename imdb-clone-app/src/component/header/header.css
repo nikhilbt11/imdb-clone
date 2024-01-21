@@ -1,0 +1,43 @@
+#header{
+    width: 100%;
+    display :flex;
+    align-items: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    /* position:fixed; */
+    z-index: 1;
+  
+    
+}
+
+#header img{
+    width: 4em;
+    margin-left: 1em;
+    border-radius: 10px;
+    
+}
+
+.innerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3em;
+    width: 25em;
+   
+}
+
+#header .links{
+    text-decoration: none;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: ease;
+    
+}
+
+/* Hovering effects done */
+#header .links:hover{
+    color: grey;
+}
+#header .links:active{
+   transform: scale(1.1);
+}

@@ -1,0 +1,103 @@
+.bigC{
+    height: 150vh;
+}
+.movieBanner{
+    width: 90%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    margin-top: 4em;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.movieBanner::before{
+    content: "";
+    position: absolute;
+    bottom: 0em;
+    top: 27.1em;
+    width: 90%;
+    height: 50%;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}
+
+.movieBanner img{
+    width: 100%;
+    height: 100vh;
+}
+
+.innerContainer{
+    position: relative;
+    bottom: 35em;
+    left: 8em;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10em;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.innerContainer .poster{
+    width: 350px;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    padding: 0;
+    border-radius: 10px;
+    
+}
+
+.innerContainer .poster img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.innerContainer .movieDet{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10em;
+    color: white;
+    height: 90vh;
+    width: 60%;
+    margin-left: 3em;
+    
+}
+
+.movieDet h2:nth-child(1){
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    
+}
+.movieDet p:nth-child(2){
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    
+}
+.movieDet p:nth-child(3){
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    
+}
+.movieDet p:nth-child(4){
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    
+}
+.movieDet div:nth-child(5){
+    display: flex;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    
+}

@@ -1,0 +1,42 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.19rem;
+    cursor:pointer;
+    width:210px;
+    height:300px;
+    border: 1px solid rgb(99, 99, 99);
+    background-size: cover;
+}
+
+.cardContainer img{
+    position: relative;
+    width: 30em;
+    height: 20em;
+}
+
+.cardDet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:200px;
+    height:150px;
+    position: absolute;
+    top: 8em;
+    left: 0.5em;
+    color: white;
+    font-size: 0.9em;
+    opacity: 1;
+    
+}
+
+.cardDet:hover{
+    /* scale: 1.2; */
+    opacity: 1;
+    z-index: 1000;
+}
+
